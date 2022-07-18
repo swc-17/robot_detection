@@ -1,0 +1,1 @@
+tensorboard --logdir work_dirs/
