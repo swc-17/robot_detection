@@ -1,3 +1,12 @@
+data
+mmdet
+open-mmlab
+models
+work_dirs
+__pycache__
+build
+demo
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
