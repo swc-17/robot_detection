@@ -23,7 +23,8 @@ Software:
 * onnx-tensorrt 7.2.1
 
 ### 1. pth to onnx
-    sh scripts/torch2onnx.sh
+* add `return batch_mlvl_bboxes, batch_mlvl_scores` in mmdet/models/dense_heads/yolo_head.py line 601 to avoid export nms
+* sh scripts/torch2onnx.sh
 
 ### 2. onnx to tensorrt
 * build onnx-tensorrt and replace libonnxparser.so in trt with the one built in onnx-tensorrt
