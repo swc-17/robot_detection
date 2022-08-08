@@ -1,6 +1,6 @@
 # yolox ps
  PYTHONPATH='.':$PYTHONPATH  mim train mmdet \
-         configs/yolox/yolox_nano_8x8_300e_coco.py \
+         configs/parking_slot/yolox_psvoc.py \
          --gpus 4  \
          --launcher pytorch 
 

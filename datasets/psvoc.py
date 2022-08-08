@@ -10,7 +10,7 @@ from mmdet.datasets.xml_style import XMLDataset
 
 @DATASETS.register_module()
 class PSVOCDataset(XMLDataset):
-    # '道闸','地面垃圾','地面破损及凹坑','地锁','减速带','路障','限位器','雪糕筒'
+    # '道闸','地面垃圾','地锁','减速带','路障','限位器','雪糕筒'
     CLASSES = ('barrier_gate', 'garbage',
                'parking_lock', 'speed_bump', 'road_block', 
                'stopper', 'traffic_cone')
