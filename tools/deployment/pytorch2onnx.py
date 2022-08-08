@@ -319,7 +319,6 @@ if __name__ == '__main__':
         input_shape = (1, 3) + tuple(args.shape)
     else:
         raise ValueError('invalid input shape')
-
     # build the model and load checkpoint
     model = build_model_from_cfg(args.config, args.checkpoint,
                                  args.cfg_options)

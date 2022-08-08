@@ -1,10 +1,10 @@
 # yolox ps
  PYTHONPATH='.':$PYTHONPATH  mim train mmdet \
-         configs/parking_slot/yolox_psvoc.py \
+         configs/parking_slot/yolov3_psvoc.py \
          --gpus 4  \
          --launcher pytorch 
 
-# yolo ps
+# yolo ps configs/parking_slot/yolox_psvoc.py
 # PYTHONPATH='.':$PYTHONPATH  mim train mmdet \
 #         configs/pascal_voc/yolo_1x_psvoc0712.py \
 #         --gpus 4  \

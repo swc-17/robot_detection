@@ -18,7 +18,7 @@
 # yolo psvoc
 # PYTHONPATH='.':$PYTHONPATH \
 # python tools/deployment/pytorch2onnx.py \
-#     configs/pascal_voc/yolo_1x_psvoc0712.py \
+#     configs/parking_slot/yolov3_psvoc.py \
 #     work_dirs/yolo_1x_psvoc0712/latest.pth \
 #     --output-file yolo_ps.onnx \
 #     --shape 416 \
@@ -33,10 +33,10 @@
 # yolo psvoc
 PYTHONPATH='.':$PYTHONPATH \
 python tools/deployment/pytorch2onnx.py \
-    configs/yolox/yolox_nano_8x8_300e_coco.py \
-    work_dirs/yolox_nano_8x8_300e_coco/latest.pth \
+    configs/parking_slot/yolox_psvoc.py \
+    work_dirs/yolox_psvoc/latest.pth \
     --output-file yolox.onnx \
-    --shape 320 \
+    --shape 416 \
     --simplify 
     # --input-img test.jpg 
     # --skip-postprocess
