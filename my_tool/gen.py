@@ -1,3 +1,5 @@
+# generate non-repeated dataset for training
+
 import os 
 import xml.etree.ElementTree as ET
 

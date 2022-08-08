@@ -1,3 +1,5 @@
+# merge images in one folder to get an video
+
 import os
 import cv2
 

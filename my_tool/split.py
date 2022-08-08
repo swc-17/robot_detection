@@ -1,3 +1,5 @@
+# generate train.txt and val.txt
+
 import os
 import random
 
