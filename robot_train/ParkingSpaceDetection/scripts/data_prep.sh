@@ -1,0 +1,2 @@
+python prepare_dataset.py --dataset trainval --label_directory ../data/parkingslot/ps_json_label/training --image_directory ../data/parkingslot/training --output_directory ../data/parkingslot
+python prepare_dataset.py --dataset test --label_directory ../data/parkingslot/ps_json_label/testing --image_directory ../data/parkingslot/testing --output_directory ../data/parkingslot
